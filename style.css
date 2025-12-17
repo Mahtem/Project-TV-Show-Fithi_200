@@ -1,6 +1,67 @@
 #root {
-  color: red;
+  color: blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
+
+/* Episode card */
 #root section {
-  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 0; /* remove vertical stacking gap */
+  text-align: center;
 }
+
+/* Episode image */
+#root section img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Episode title */
+#root section h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Episode summary text */
+#root section div {
+  color: black;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Footer style*/
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Full-width horizontal line */
+footer hr {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: none;
+  border-top: 1px solid #000;
+}
+
+/* TVMaze link styling */
+footer a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
